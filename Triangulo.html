@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Triángulo</title>
+    <link rel="stylesheet" href="nct.css">
+    <script src="tae.js"> </script>
+  </header>
+  <body>
+    <header>
+      <h1>Área del Triángulo</h1>
+    </header>
+    <nav>
+      <!--  Menú de navegación  -->
+    </nav>
+    <section>
+  <!--    <form action="index.html" method="get" name="formAreas" id="formAreas">  -->
+    <div id="datos">
+    <p><label for="base">Base:</label>
+      <input type="number" class="numero" name="base" id="base" size="5" maxlength="3" placeholder="Base Trian." onchange="calcularArea()">
+    </p>
+    <p><label for="altura">Altura:</label>
+      <input type="number" class="numero" name="altura" id="altura" size="5" maxlength="3" placeholder="Altura Trian." onchange="calcularArea()">
+    </p>
+    </div>
+    <div id="resultado">
+    <p><label for="area">Resultado</label>
+      <input type="text" class="numero" name="area" id="area" size="7">
+    </p>
+    <div id="botones">
+      <button onclick="calcularArea()">Calcular</button>
+      <input type="reset" name="limpiar" id="limpiar" value="Limpiar" onclick="limpiarValores()">
+    </div>
+   <!--   </form>  -->
+    </section>
+  </body>
+</html>

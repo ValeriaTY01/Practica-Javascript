@@ -1,0 +1,10 @@
+body {width: 25%}
+h1 {text-align: center;}
+div p {font-weight: bold;}
+footer p {font-style: italic;}
+
+#datos {background-color: #D0A9F5; text-align: center;}
+#resultado {background-color: #FA58D0; color: #6A0888;text-align: center;}
+#botones {text-align: right;}
+
+.numero {text-align: right;}
